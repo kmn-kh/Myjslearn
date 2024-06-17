@@ -3,16 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    height: 600vh;
-}
-.head{
+.me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 100px;
-    background-color: red;
+    height: 100vh;
 }
-.body{
-    width: 100%;
-    height: 60px;
+/* {
+    text-align: center;
+    width: 20%;
     background-color: aqua;
+    height: 15vh;
+} */
+#text{
+    font-size: 20px;
 }

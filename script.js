@@ -1,28 +1,9 @@
-var x=3 ;
-while (x<=4){
-   alert("How");
-   x++;
-}
-
-do{
-   alert("are");
-   x++;
-}while(x<=4);
-
-for(x;x<=6;x++){
-   alert("you?");
-}
-y=3;
-while (y<4){
-   alert("How");
-   y++;
-}
-
-do{
-   alert("are");
-   y++;
-}while(y<4);
-
-for(y;y<6;y++){
-   alert("you?");
+var text = document.getElementById("text");
+var height = document.getElementById("height");
+window.onresize = function () {
+    text.innerHTML = "innerWidth : " + window.innerWidth + "<br>";
+    text.innerHTML += "innerHeight : " +window.innerHeight+"<br>";
+    text.innerHTML += "outerWidth : " +window.outerWidth +"<br>";
+    text.innerHTML += "outerHeight : " +window.outerHeight +"<br>";
+    // height.innerHTML = "innerHeight: " + window.innerHeight + "<br>";
 }
