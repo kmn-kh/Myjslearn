@@ -3,24 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    width: 400vw;
-    height: 400vh;
+.tb{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
-.me{
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-}
-/* {
+.tb th{
+    height: 27px;
     text-align: center;
-    width: 20%;
-    background-color: aqua;
-    height: 15vh;
-} */
-#text{
-    font-size: 20px;
+}
+.tb td{
+    height: 27px;
+    text-align: center;
 }
